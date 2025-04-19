@@ -27,7 +27,7 @@ jobs:
         uses: chromaui/action@latest
         # Options required for Chromatic's GitHub Action
         with:
-          working-directory: ./apps/docs
+          workingDir: ./apps/docs
           #👇 Chromatic projectToken,
           projectToken: ${{ secrets.CHROMATIC_PROJECT_TOKEN }}
           token: ${{ secrets.GITHUB_TOKEN }}
