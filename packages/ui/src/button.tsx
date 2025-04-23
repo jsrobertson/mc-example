@@ -10,7 +10,7 @@ export function Button({ children, ...other }: ButtonProps): JSX.Element {
   const style = {
     ...(variant === "primary"
       ? {
-          backgroundColor: "green",
+          backgroundColor: "black",
           color: "white",
         }
       : {
